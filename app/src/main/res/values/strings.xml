@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="book_name">Book Name</string>
+    <string name="enter_book_name">Enter book name</string>
+    <string name="add_book">Add Book</string>
+    <string name="price">Price</string>
+    <string name="enter_price">Enter price</string>
+    <string name="price_symbol">$</string>
+    <string name="quantity">Quantity</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="supplier_name">Supplier name</string>
+    <string name="enter_supplier_name">Enter supplier name</string>
+    <string name="supplier_phone_number">Supplier phone number</string>
+    <string name="enter_supplier_phone_number">Enter supplier phone number</string>
+    <string name="action_save">Save</string>
+    <string name="the_books_table_contains">The books table contains </string>
+    <string name="books">books</string>
+    <string name="price_sign">$</string>
+    <string name="action_delete_all_entries">Delete all</string>
+    <string name="sale">SALE</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a book</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_book">Edit book</string>
+
+    <string name="editor_insert_book_failed">Insert book failed</string>
+    <string name="editor_insert_book_successful">Insert book successful</string>
+
+
+    <string name="editor_update_book_successful">Update book successful</string>
+    <string name="editor_update_book_failed">Update book failed</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_all_dialog_msg">Delete all books?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <string name="main_delete_all_failed">Error with deleting all books</string>
+    <string name="main_delete_all_successful">Deleting all books successful</string>
+
+    <string name="sell_book_failed">Sell book failed</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a book</string>
+
+</resources>

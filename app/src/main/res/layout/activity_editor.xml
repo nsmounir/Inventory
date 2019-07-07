@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_height"
+        android:layout_margin="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/book_name"
+            android:textColor="@color/editorColorPrimaryDark"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:id="@+id/book_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="@string/enter_book_name"
+            android:inputType="textCapSentences"
+            tools:text="Lord of the rings" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_height"
+        android:layout_margin="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/price"
+            android:textColor="@color/editorColorPrimaryDark"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="@string/enter_price"
+            android:inputType="number"
+            tools:text="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/price_symbol" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_height"
+        android:layout_margin="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/quantity"
+            android:textColor="@color/editorColorPrimaryDark"
+            android:textSize="@dimen/text_size" />
+
+        <ImageButton
+            android:id="@+id/editor_subtract"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:src="@drawable/subtract" />
+
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="@string/enter_quantity"
+            android:inputType="number"
+            tools:text="5" />
+
+        <ImageButton
+            android:id="@+id/editor_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:src="@drawable/add" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_height"
+        android:layout_margin="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/supplier_name"
+            android:textColor="@color/editorColorPrimaryDark"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:id="@+id/supplier_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="@string/enter_supplier_name"
+            android:inputType="textCapSentences"
+            tools:text="ABC Library" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_height"
+        android:layout_margin="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/supplier_phone_number"
+            android:textColor="@color/editorColorPrimaryDark"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:id="@+id/supplier_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="@string/enter_supplier_phone_number"
+            android:inputType="phone"
+            tools:text="12345678" />
+
+        <ImageButton
+            android:id="@+id/editor_call_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:src="@drawable/call" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editor_delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn"
+        android:text="@string/delete"
+        android:textColor="@color/white" />
+</LinearLayout>
+
